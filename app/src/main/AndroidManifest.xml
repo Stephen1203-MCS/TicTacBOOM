@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TicTacBOOM">
         <activity
-            android:name=".MainActivity"
+            android:name=".GameScreen"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -23,10 +23,6 @@
         </activity>
         <activity
             android:name=".StartingScreen"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-        <activity
-            android:name=".GameScreen"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
