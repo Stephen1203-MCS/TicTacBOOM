@@ -32,6 +32,7 @@ android {
 }
 
 dependencies {
+    implementation("pl.droidsonroids.gif:android-gif-drawable:1.2.32")
     implementation(libs.activity.ktx)
     implementation(libs.appcompat)
     implementation(libs.constraintlayout)
